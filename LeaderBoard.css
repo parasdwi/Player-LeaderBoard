@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    max-width: 900px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.heading {
+    margin-bottom: 25px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+    font-size: 40px;
+    color: rgb(205, 147, 147);
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    margin-bottom: 30px;
+}
+
+.firstName,
+.lastName,
+.country,
+.score {
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid rgb(205, 147, 147);
+    width: 25%;
+}
+
+.firstName:focus,
+.lastName:focus,
+.country:focus,
+.score:focus {
+    outline: none;
+    border: 2px solid rgb(230, 53, 53);
+
+}
+
+.addPlayer{
+    background-color:rgb(205, 147, 147);
+    border: none;
+    width: 20%;
+    padding : 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.addPlayer:hover{
+    background-color: rgb(197, 129, 106);
+}
+.addPlayer:active{
+    transform: scale(0.98);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.playerCard{
+    display: flex;
+    align-items: center;
+    background-color: rgb(237, 212, 212);
+    width: 100%;
+    margin-top: px;
+    padding : 15px 25px;
+    box-sizing: border-box;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(62, 62, 64);
+}
+
+.date {
+    color: rgb(125, 125, 128);
+}
+
+.playerNameAndDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+    width : 270px
+}
+
+.date{
+    font-size: 17px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 300px
+}
+.button{
+    font-size: 17px;
+    width: 70px;
+    height : 70px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.296);
+    font-size: 20px;
+    background-color: rgb(243, 233, 233);
+}
+.button:hover{
+    background-color: rgb(236, 182, 182);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.784);
+}
+
+.button:active{
+    transform: scale(0.96);
+}
+
+.playerScore{
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-align: center;
+}
+.playerCountry{
+    display: block;
+    width : 200px;
+    text-align: center;
+}
