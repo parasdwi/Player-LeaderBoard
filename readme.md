@@ -2,6 +2,8 @@
 
 A simple, responsive leaderboard web app built with vanilla HTML, CSS, and JavaScript. Add players, track their scores, adjust scores on the fly, and watch the leaderboard auto-sort by rank.
 
+https://parasdwi.github.io/Player-LeaderBoard/
+
 ## Features
 
 - **Add players** with first name, last name, country, and score
